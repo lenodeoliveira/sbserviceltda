@@ -4,8 +4,6 @@ jobs:
     working_directory: ~/repo
     docker:
       - image: cimg/node:14.17.6
-      - setup_remote_docker:
-          docker_layer_caching: true
     steps:
       - checkout
       - run:
