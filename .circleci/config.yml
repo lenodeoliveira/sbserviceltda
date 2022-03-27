@@ -1,4 +1,8 @@
 version: 2.1
+
+orbs:
+  coveralls: coveralls/coveralls@1.0.6
+
 jobs:
   build:
     working_directory: ~/app
@@ -18,8 +22,10 @@ jobs:
           paths:
             - ./node_modules
       - run:
-          name: Run tests
-          command: npm run test
-      - run:
           name: check code style
           command: npm run lint
+      - run:
+          name: Run tests and generates coverage report
+          command: npm run test
+      - coveralls/upload:
+          verbose: true
