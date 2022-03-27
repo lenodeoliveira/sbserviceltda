@@ -1,3 +1,5 @@
+import { Heading } from '../components/Heading'
+
 export default function Index() {
-  return <h1>test</h1>
+  return <Heading>test</Heading>
 }
