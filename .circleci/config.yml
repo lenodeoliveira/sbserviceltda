@@ -26,6 +26,6 @@ jobs:
           command: npm run lint
       - run:
           name: Run tests and generates coverage report
-          command: npm run test
+          command: npm run test:coveralls
       - coveralls/upload:
           verbose: true
