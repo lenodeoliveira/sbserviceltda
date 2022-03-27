@@ -4,3 +4,26 @@
 
 Sbservices is a company specialized in radiology and teleradiology services
 
+> ## Libraries and tools used:
+* Next js
+* Styled Components
+* Docker
+* Circleci
+* Coveralls
+* Prop-types
+* Storybook
+* Jest
+* Heroku
+* Eslint
+* Lint Staged
+* Git
+* NPM
+* Prettier
+
+> ### Commands to run the tests:
+* `npm test`
+* With coverage: `npm run test:coveralls`
+
+> ### Commands to run the application:
+* `npm run dev`
+* With docker: `docker-compose up --build -d`
