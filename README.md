@@ -4,7 +4,7 @@
 
 Sbservices is a company specialized in radiology and teleradiology services
 
-> ## Libraries and tools used:
+> ## Libraries and tools used: ⚙️
 * Next js
 * Styled Components
 * Docker
@@ -20,10 +20,10 @@ Sbservices is a company specialized in radiology and teleradiology services
 * NPM
 * Prettier
 
-> ### Commands to run the tests:
+> ### Commands to run the tests: 🔩
 * `npm test`
 * With coverage: `npm run test:coveralls`
 
-> ### Commands to run the application:
+> ### Commands to run the application: 🚀
 * `npm run dev`
 * With docker: `docker-compose up --build -d`
