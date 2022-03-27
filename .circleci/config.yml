@@ -9,9 +9,6 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: true
       - run:
-          name: Building docker image
-          command: docker build .
-      - run:
           name: install the dependencies
           command: npm install
       - restore_cache:
