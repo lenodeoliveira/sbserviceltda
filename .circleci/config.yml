@@ -1,16 +1,13 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/repo
+    working_directory: ~/app
     docker:
       - image: cimg/node:14.17.6
     steps:
       - checkout
       - setup_remote_docker:
           docker_layer_caching: true
-      - run:
-          name: install the dependencies
-          command: npm install
       - restore_cache:
           key: dependency-cache-{{ checksum "package-lock.json" }}
       - run:
