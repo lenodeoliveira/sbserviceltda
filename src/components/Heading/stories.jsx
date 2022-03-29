@@ -11,4 +11,16 @@ export default {
   },
 }
 
-export const Template = (args) => <Heading {...args} />
+export const Light = (args) => <Heading {...args} />
+export const DarkGreen = (args) => <Heading {...args} />
+
+Light.parameters = {
+  backgrounds: {
+    default: 'light',
+  },
+}
+
+DarkGreen.args = {
+  children: 'Any',
+  darkGreen: false,
+}
