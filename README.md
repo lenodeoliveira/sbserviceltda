@@ -1,5 +1,9 @@
-[![Coverage Status](https://coveralls.io/repos/github/lenodeoliveira/sbserviceltda/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/lenodeoliveira/sbserviceltda?branch=main) [![CircleCI](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main.svg?style=svg)](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main)
+<img alt="Coverage Status" src="https://coveralls.io/repos/github/lenodeoliveira/sbserviceltda/badge.svg?branch=main&kill_cache=1)"/> [![CircleCI](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main.svg?style=svg)](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main)
+
+
 # SB - Provision of Radiology Services LTDA 👨🏼‍⚕️ ⚡️
+
+
 
 
 SB is a company specialized in radiology and teleradiology services
