@@ -8,8 +8,8 @@ describe('<TextComponent />', () => {
     expect(screen.getByText('Children')).toBeInTheDocument()
   })
 
-  it('Should match snapshot', () => {
-    const { container } = renderTheme(<TextComponent>Children</TextComponent>)
-    expect(container).toMatchSnapshot()
-  })
+  // it('Should match snapshot', () => {
+  //   const { container } = renderTheme(<TextComponent>Children</TextComponent>)
+  //   expect(container).toMatchSnapshot()
+  // })
 })
