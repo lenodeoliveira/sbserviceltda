@@ -54,11 +54,11 @@ exports[`<GridContent /> Should render grid content 1`] = `
         <div
           class="c3"
         >
-          <h1
+          <h2
             class="c4"
           >
             Grid content
-          </h1>
+          </h2>
           <p
             class="c5"
           >
@@ -125,11 +125,11 @@ exports[`<GridContent /> Should render grid content background 1`] = `
         <div
           class="c3"
         >
-          <h1
+          <h2
             class="c4"
           >
             Grid content
-          </h1>
+          </h2>
           <p
             class="c5"
           >

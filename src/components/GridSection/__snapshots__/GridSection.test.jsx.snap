@@ -63,11 +63,11 @@ exports[`<GridSection /> Should render 1`] = `
       <div
         class="c2"
       >
-        <h1
+        <h2
           class="c3"
         >
           My grid
-        </h1>
+        </h2>
         <p
           class="c4 c5"
         >
@@ -79,11 +79,11 @@ exports[`<GridSection /> Should render 1`] = `
           <div
             class=""
           >
-            <h1
+            <h3
               class="c7"
             >
               Teste 1
-            </h1>
+            </h3>
             <p
               class="c4 c5"
             >
@@ -93,11 +93,11 @@ exports[`<GridSection /> Should render 1`] = `
           <div
             class=""
           >
-            <h1
+            <h3
               class="c7"
             >
               Teste 2
-            </h1>
+            </h3>
             <p
               class="c4 c5"
             >
@@ -107,11 +107,11 @@ exports[`<GridSection /> Should render 1`] = `
           <div
             class=""
           >
-            <h1
+            <h3
               class="c7"
             >
               Teste 3
-            </h1>
+            </h3>
             <p
               class="c4 c5"
             >
@@ -121,11 +121,11 @@ exports[`<GridSection /> Should render 1`] = `
           <div
             class=""
           >
-            <h1
+            <h3
               class="c7"
             >
               Teste 3
-            </h1>
+            </h3>
             <p
               class="c4 c5"
             >
