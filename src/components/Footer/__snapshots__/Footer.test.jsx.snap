@@ -20,7 +20,7 @@ exports[`<Footer /> Should render a Footer 1`] = `
 }
 
 <div>
-  <div
+  <footer
     class="c0"
   >
     <div
@@ -33,6 +33,6 @@ exports[`<Footer /> Should render a Footer 1`] = `
          
       </p>
     </div>
-  </div>
+  </footer>
 </div>
 `;
