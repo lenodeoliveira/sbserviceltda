@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<GridSection /> Should render 1`] = `
+exports[`<GridSection /> Should render a GridSection 1`] = `
 .c3 {
   color: #0A1128;
   font-size: 6.4rem;
