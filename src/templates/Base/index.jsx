@@ -9,7 +9,7 @@ export const Base = ({ links = [], logoData, children }) => {
     <>
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
-        <h1>{children}</h1>
+        {children}
         <Footer>SB Serviços de Radiologia e Telerradiologia</Footer>
       </Styled.Container>
       <GoTop />
