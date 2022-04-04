@@ -1,10 +1,10 @@
-import { screen } from '@testing-library/react'
 import { Base } from '.'
 import { renderTheme } from '../../styles/render-theme'
+import { mockBase } from './mock'
 
 describe('<Base />', () => {
-  it('Should render', () => {
-    renderTheme(<Base>Children</Base>)
-    expect(screen.getByRole('heading')).toBeInTheDocument()
+  it('Should render a Base component', () => {
+    const { container } = renderTheme(<Base {...mockBase} />)
+    expect(container).toMatchSnapshot()
   })
 })

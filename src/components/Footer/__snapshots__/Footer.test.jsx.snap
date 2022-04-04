@@ -1,22 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Footer /> Should render a Footer 1`] = `
+.c1 {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 3.2rem;
+}
+
 .c0 {
   text-align: center;
+  border-top: 0.1rem solid #DDDDDD;
 }
 
 .c0 p {
   font-size: 1.8rem;
 }
 
-.c2 {
-  font-size: 2.4rem;
+.c0 {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
-.c1 {
-  max-width: 120rem;
-  margin: 0 auto;
-  padding: 3.2rem;
+.c2 {
+  font-size: 2.4rem;
 }
 
 <div>

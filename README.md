@@ -23,6 +23,8 @@ SB is a company specialized in radiology and teleradiology services
 * Git
 * NPM
 * Prettier
+* Husky js
+* Styled-icons
 
 > ### Commands to run the tests: 🔩
 * `npm test`

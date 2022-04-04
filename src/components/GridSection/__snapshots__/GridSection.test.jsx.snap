@@ -25,6 +25,8 @@ exports[`<GridSection /> Should render a GridSection 1`] = `
   display: grid;
   grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
   gap: 2.4rem;
+  overflow: hidden;
+  width: 100%;
 }
 
 .c0 {
@@ -50,6 +52,12 @@ exports[`<GridSection /> Should render a GridSection 1`] = `
 @media (max-width:768px) {
   .c3 {
     font-size: (max-width:768px);
+  }
+}
+
+@media (max-width:768px) {
+  .c6 {
+    grid-template-columns: 1fr;
   }
 }
 

@@ -1,7 +1,7 @@
 import { Base } from '.'
-import mock from './mock'
-import { GridSection } from '../../components/GridSection'
+import linksMock from '../../components/NavLinks/mock'
 import gridMock from '../../components/GridSection/mock'
+import { GridSection } from '../../components/GridSection'
 
 export default {
   title: 'Templates/Base',
@@ -13,9 +13,15 @@ export default {
         <GridSection {...gridMock} />
         <GridSection {...gridMock} background />
         <GridSection {...gridMock} />
+        <GridSection {...gridMock} background />
+        <GridSection {...gridMock} />
       </>
     ),
-    ...mock,
+    links: linksMock,
+    logoData: {
+      text: 'Logo',
+      link: '#',
+    },
   },
 }
 
