@@ -18,6 +18,6 @@ export const Base = ({ links = [], logoData, children }) => {
 }
 
 Base.propTypes = {
-  children: P.node.isRequired,
+  children: P.node,
   ...Menu.propTypes,
 }

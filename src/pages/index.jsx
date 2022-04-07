@@ -1,5 +1,7 @@
-import { Heading } from '../components/Heading'
+// import { Heading } from '../components/Heading'
+// import { menu } from '../api/dados'
+import Home from '../templates/Home'
 
 export default function Index() {
-  return <Heading>test</Heading>
+  return <Home />
 }

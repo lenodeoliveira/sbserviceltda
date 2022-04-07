@@ -4,11 +4,11 @@ import { SectionBackground } from '../SectionBackground'
 import { Heading } from '../Heading'
 import { TextComponent } from '../TextComponent'
 
-export const GridSection = ({ title, description, grid, background }) => {
+export const GridSection = ({ title, description, grid, background, sectionId = '' }) => {
   return (
-    <SectionBackground background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
-        <Heading size="huge" uppercase colorDark={!background} as="h2">
+        <Heading size="huge" colorDark={!background} as="h2">
           {title}
         </Heading>
         <TextComponent>{description}</TextComponent>
@@ -18,7 +18,7 @@ export const GridSection = ({ title, description, grid, background }) => {
               <Heading size="medium" colorDark={!background} as="h3">
                 {el.title}
               </Heading>
-              <TextComponent>{el.description}</TextComponent>
+              {/* <TextComponent>{el.description}</TextComponent> */}
             </Styled.GridElement>
           ))}
         </Styled.Grid>
@@ -37,4 +37,5 @@ GridSection.propTypes = {
       description: P.string,
     }),
   ).isRequired,
+  sectionId: P.string,
 }
