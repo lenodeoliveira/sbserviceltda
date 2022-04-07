@@ -5,10 +5,12 @@ exports[`<Footer /> Should render a Footer 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c0 {
   text-align: center;
+  color: #2F5233;
   border-top: 0.1rem solid #DDDDDD;
 }
 

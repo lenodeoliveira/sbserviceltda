@@ -17,7 +17,7 @@ exports[`<NavLinks /> Should match snapshot 1`] = `
   text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
-  color: #0A1128;
+  color: #2F5233;
   position: relative;
 }
 

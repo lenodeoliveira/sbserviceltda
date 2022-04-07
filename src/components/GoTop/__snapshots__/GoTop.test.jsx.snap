@@ -7,7 +7,7 @@ exports[`<GoTop /> Should render 1`] = `
   right: 2rem;
   z-index: 6;
   color: #FFFFFF;
-  background: #0A1128;
+  background: #2F5233;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

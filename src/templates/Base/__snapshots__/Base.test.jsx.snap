@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`<Base /> Should render a Base component 1`] = `
-.c10 {
+.c11 {
   padding-top: 2.4rem;
 }
 
@@ -9,6 +9,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c2 {
@@ -56,7 +57,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   right: 2rem;
   width: 4rem;
   height: 4rem;
-  background: #0A1128;
+  background: #2F5233;
   color: #FFFFFF;
   border: none;
   display: none;
@@ -68,7 +69,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   height: 2.5rem;
 }
 
-.c7 {
+.c8 {
   -webkit-text-decoration: none;
   text-decoration: none;
   display: -webkit-box;
@@ -82,41 +83,41 @@ exports[`<Base /> Should render a Base component 1`] = `
   color: inherit;
 }
 
-.c7 > img {
+.c8 > img {
   max-height: 2.5rem;
 }
 
-.c6 {
-  color: #0A1128;
+.c7 {
+  color: #2F5233;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
 
-.c13 {
+.c14 {
   color: #FFFFFF;
   font-size: 6.4rem;
-  text-transform: uppercase;
-}
-
-.c17 {
-  color: #FFFFFF;
-  font-size: 3.2rem;
   text-transform: none;
 }
 
 .c19 {
-  color: #0A1128;
-  font-size: 6.4rem;
-  text-transform: uppercase;
-}
-
-.c20 {
-  color: #0A1128;
+  color: #FFFFFF;
   font-size: 3.2rem;
   text-transform: none;
 }
 
-.c8 {
+.c21 {
+  color: #2F5233;
+  font-size: 6.4rem;
+  text-transform: none;
+}
+
+.c22 {
+  color: #2F5233;
+  font-size: 3.2rem;
+  text-transform: none;
+}
+
+.c9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -126,17 +127,17 @@ exports[`<Base /> Should render a Base component 1`] = `
   flex-flow: row wrap;
 }
 
-.c9 {
+.c10 {
   display: block;
   -webkit-text-decoration: none;
   text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
-  color: #0A1128;
+  color: #2F5233;
   position: relative;
 }
 
-.c9::after {
+.c10::after {
   content: '';
   position: absolute;
   bottom: 0.77rem;
@@ -148,7 +149,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   transition: all 300ms ease-in-out;
 }
 
-.c9:hover::after {
+.c10:hover::after {
   left: 25%;
   width: 50%;
 }
@@ -159,31 +160,32 @@ exports[`<Base /> Should render a Base component 1`] = `
   overflow: hidden;
 }
 
-.c21 {
+.c23 {
   text-align: center;
+  color: #2F5233;
   border-top: 0.1rem solid #DDDDDD;
 }
 
-.c21 p {
+.c23 p {
   font-size: 1.8rem;
 }
 
-.c21 {
+.c23 {
   padding-top: 0;
   padding-bottom: 0;
 }
 
-.c15 {
+.c16 {
   font-size: 2.4rem;
 }
 
-.c22 {
+.c24 {
   position: fixed;
   bottom: 2rem;
   right: 2rem;
   z-index: 6;
   color: #FFFFFF;
-  background: #0A1128;
+  background: #2F5233;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -201,22 +203,35 @@ exports[`<Base /> Should render a Base component 1`] = `
   opacity: 0.8;
 }
 
-.c12 .c14 {
+.c13 .c15 {
   margin-bottom: 6.4rem;
+  margin-left: 7.3rem;
 }
 
-.c16 {
+.c13 > .c6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.c17 {
   display: grid;
-  grid-template-columns: repeat(auto-fill,minmax(280px,1fr));
-  gap: 2.4rem;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  margin-left: 1.3rem;
+  text-align: center;
   overflow: hidden;
   width: 100%;
 }
 
-.c11 {
+.c12 {
   background: #FFFFFF;
-  color: #0A1128;
-  background: #0A1128;
+  color: #2F5233;
+  background: #2F5233;
   color: #FFFFFF;
   min-height: 100vh;
   display: -webkit-box;
@@ -229,9 +244,9 @@ exports[`<Base /> Should render a Base component 1`] = `
   align-items: center;
 }
 
-.c18 {
+.c20 {
   background: #FFFFFF;
-  color: #0A1128;
+  color: #2F5233;
   min-height: 100vh;
   display: -webkit-box;
   display: -webkit-flex;
@@ -244,7 +259,7 @@ exports[`<Base /> Should render a Base component 1`] = `
 }
 
 @media (max-width:768px) {
-  .c10 {
+  .c11 {
     padding-top: 0;
   }
 }
@@ -307,19 +322,19 @@ exports[`<Base /> Should render a Base component 1`] = `
 }
 
 @media (max-width:768px) {
-  .c13 {
+  .c14 {
     font-size: (max-width:768px);
   }
 }
 
 @media (max-width:768px) {
-  .c19 {
+  .c21 {
     font-size: (max-width:768px);
   }
 }
 
 @media (max-width:768px) {
-  .c8 {
+  .c9 {
     -webkit-flex-flow: column wrap;
     -ms-flex-flow: column wrap;
     flex-flow: column wrap;
@@ -330,8 +345,30 @@ exports[`<Base /> Should render a Base component 1`] = `
 }
 
 @media (max-width:768px) {
-  .c16 {
+  .c13 {
+    text-align: center;
+  }
+
+  .c13 > .c6 {
+    font-size: 3.2rem;
+  }
+
+  .c13 .c15 {
+    margin-bottom: 6.4rem;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c17 {
     grid-template-columns: 1fr;
+    margin-left: 0;
+  }
+}
+
+@media (max-width:768px) {
+  .c18 {
+    margin-bottom: 2.4rem;
   }
 }
 
@@ -368,10 +405,10 @@ exports[`<Base /> Should render a Base component 1`] = `
         class="c5"
       >
         <h1
-          class="c6"
+          class="c6 c7"
         >
           <a
-            class="c7"
+            class="c8"
             href="#"
           >
             Logo
@@ -379,80 +416,80 @@ exports[`<Base /> Should render a Base component 1`] = `
         </h1>
         <nav
           aria-label="Main menu"
-          class="c8"
+          class="c9"
         >
           <a
-            class="c9"
+            class="c10"
             href="#target1"
             target="_self"
           >
             Link 1
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target2"
             target="_self"
           >
             Link 2
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target3"
             target="_self"
           >
             Link 3
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target4"
             target="_self"
           >
             Link 4
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target4"
             target="_self"
           >
             Link 4
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target5"
             target="_self"
           >
             Link 5
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target6"
             target="_self"
           >
             Link 6
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target7"
             target="_self"
           >
             Link 7
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target8"
             target="_self"
           >
             Link 8
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target9"
             target="_self"
           >
             Link 9
           </a>
           <a
-            class="c9"
+            class="c10"
             href="#target10"
             target="_self"
           >
@@ -463,508 +500,394 @@ exports[`<Base /> Should render a Base component 1`] = `
     </div>
   </div>
   <div
-    class="c10"
+    class="c11"
   >
     <div
-      class="c11"
+      class="c12"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c13"
+            class="c6 c14"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c18"
+      class="c20"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c19"
+            class="c6 c21"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c11"
+      class="c12"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c13"
+            class="c6 c14"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c18"
+      class="c20"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c19"
+            class="c6 c21"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c11"
+      class="c12"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c13"
+            class="c6 c14"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c17"
+                class="c6 c19"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <div
-      class="c18"
+      class="c20"
+      id=""
     >
       <div
         class="c3 c4"
       >
         <div
-          class="c12"
+          class="c13"
         >
           <h2
-            class="c19"
+            class="c6 c21"
           >
             My grid
           </h2>
           <p
-            class="c14 c15"
+            class="c15 c16"
           >
             Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde
           </p>
           <div
-            class="c16"
+            class="c17"
           >
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 1
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,.
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 2
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit,
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
             <div
-              class=""
+              class="c18"
             >
               <h3
-                class="c20"
+                class="c6 c22"
               >
                 Teste 3
               </h3>
-              <p
-                class="c14 c15"
-              >
-                Lorem ipsum dolor sit, 
-              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
     <footer
-      class="c21"
+      class="c23"
     >
       <div
         class="c3 c4"
       >
         <p
-          class="c14 c15"
+          class="c15 c16"
         >
           SB Serviços de Radiologia e Telerradiologia 2022
            
@@ -974,7 +897,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   </div>
   <a
     aria-label="Go to top"
-    class="c22"
+    class="c24"
     href="#"
   >
     <svg

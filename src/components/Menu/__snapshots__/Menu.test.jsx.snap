@@ -5,6 +5,7 @@ exports[`<Menu /> Should not render links 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c2 {
@@ -52,7 +53,7 @@ exports[`<Menu /> Should not render links 1`] = `
   right: 2rem;
   width: 4rem;
   height: 4rem;
-  background: #0A1128;
+  background: #2F5233;
   color: #FFFFFF;
   border: none;
   display: none;
@@ -83,7 +84,7 @@ exports[`<Menu /> Should not render links 1`] = `
 }
 
 .c6 {
-  color: #0A1128;
+  color: #2F5233;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
@@ -229,6 +230,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   max-width: 120rem;
   margin: 0 auto;
   padding: 3.2rem;
+  width: 100%;
 }
 
 .c2 {
@@ -276,7 +278,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   right: 2rem;
   width: 4rem;
   height: 4rem;
-  background: #0A1128;
+  background: #2F5233;
   color: #FFFFFF;
   border: none;
   display: none;
@@ -307,7 +309,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
 }
 
 .c6 {
-  color: #0A1128;
+  color: #2F5233;
   font-size: 2.4rem;
   text-transform: uppercase;
 }
@@ -328,7 +330,7 @@ exports[`<Menu /> should render Logo and Main Menu Nav 1`] = `
   text-decoration: none;
   font-size: 1.6rem;
   padding: 1.6rem;
-  color: #0A1128;
+  color: #2F5233;
   position: relative;
 }
 
