@@ -11,6 +11,7 @@
     "test": "jest --silent --noStackTrace --runInBand  --no-cache",
     "test:ci": "npm test -- --coverage",
     "test:coveralls": "jest --passWithNoTests --coverage && coveralls < coverage/lcov.info",
+    "update-snap": "jest --updateSnapshot",
     "prepare": "husky install"
   },
   "lint-staged": {
