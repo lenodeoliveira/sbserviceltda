@@ -5,6 +5,7 @@ exports[`<GridTwoColumn /> Should render two columns grid 1`] = `
   color: #2F5233;
   font-size: 4.0rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .c2 {

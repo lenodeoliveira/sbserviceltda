@@ -48,6 +48,7 @@ exports[`<GridPartner /> Should render GridPartner 1`] = `
   color: #2F5233;
   font-size: 6.4rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
 }
 
 @media (max-width:768px) {

@@ -36,6 +36,7 @@ exports[`<GridContent /> Should render grid content 1`] = `
   color: #2F5233;
   font-size: 4.0rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .c5 {
@@ -109,6 +110,7 @@ exports[`<GridContent /> Should render grid content background 1`] = `
   color: #2F5233;
   font-size: 4.0rem;
   text-transform: uppercase;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .c5 {

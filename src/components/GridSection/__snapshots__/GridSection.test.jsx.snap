@@ -9,12 +9,14 @@ exports[`<GridSection /> Should render a GridSection 1`] = `
   color: #2F5233;
   font-size: 6.4rem;
   text-transform: none;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .c9 {
   color: #2F5233;
   font-size: 3.2rem;
   text-transform: none;
+  font-family: 'Montserrat',sans-serif;
 }
 
 .c2 .c5 {
