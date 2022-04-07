@@ -1,4 +1,5 @@
 import { Base } from '../Base'
+import Head from 'next/head'
 import { GridTwoColumn } from '../../components/GridTwoColumn'
 import { GridSection } from '../../components/GridSection'
 // import { mockBase } from '../Base/mock'
@@ -68,10 +69,20 @@ const sobreNos = {
 
 function Home() {
   return (
-    <Base logoData={logoData} links={links}>
-      <GridTwoColumn {...sobreNos} background />
-      <GridSection {...especialidades} />
-    </Base>
+    <>
+      <Head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,900;1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+          rel="stylesheet"
+        />
+      </Head>
+      <Base logoData={logoData} links={links}>
+        <GridTwoColumn {...sobreNos} background />
+        <GridSection {...especialidades} />
+      </Base>
+    </>
   )
 }
 
