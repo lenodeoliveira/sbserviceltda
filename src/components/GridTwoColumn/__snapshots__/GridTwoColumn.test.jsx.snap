@@ -9,7 +9,8 @@ exports[`<GridTwoColumn /> Should render two columns grid 1`] = `
 
 .c2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1.8fr 1fr;
+  margin-left: 3rem;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -19,6 +20,15 @@ exports[`<GridTwoColumn /> Should render two columns grid 1`] = `
 
 .c2 .c4 {
   margin-bottom: 4.0rem;
+}
+
+.c7 {
+  width: 100%;
+}
+
+.c8 {
+  width: 100%;
+  border-radius: 2.4%;
 }
 
 .c0 {
@@ -50,6 +60,7 @@ exports[`<GridTwoColumn /> Should render two columns grid 1`] = `
   .c2 {
     grid-template-columns: 1fr;
     text-align: center;
+    margin-left: 0;
   }
 }
 
@@ -85,11 +96,11 @@ exports[`<GridTwoColumn /> Should render two columns grid 1`] = `
           </p>
         </div>
         <div
-          class=""
+          class="c7"
         >
           <img
             alt="Grid two columns"
-            class=""
+            class="c8"
             src="assets/images/javascript.svg"
           />
         </div>

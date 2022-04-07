@@ -217,6 +217,7 @@ exports[`<Base /> Should render a Base component 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-top: -10%;
 }
 
 .c17 {
@@ -351,6 +352,7 @@ exports[`<Base /> Should render a Base component 1`] = `
 
   .c13 > .c6 {
     font-size: 3.2rem;
+    margin-top: 0;
   }
 
   .c13 .c15 {

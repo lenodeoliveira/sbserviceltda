@@ -11,10 +11,12 @@ export const Container = styled.div`
     & > ${Heading} {
       display: flex;
       justify-content: center;
+      margin-top: -10%;
     }
     @media ${theme.media.lteMedium} {
       & > ${Heading} {
         font-size: ${theme.font.sizes.large};
+        margin-top: 0;
       }
       ${TextComponent} {
         margin-bottom: ${theme.spacings.xhuge};

@@ -31,6 +31,7 @@ exports[`<GridSection /> Should render a GridSection 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  margin-top: -10%;
 }
 
 .c7 {
@@ -76,6 +77,7 @@ exports[`<GridSection /> Should render a GridSection 1`] = `
 
   .c2 > .c3 {
     font-size: 3.2rem;
+    margin-top: 0;
   }
 
   .c2 .c5 {
