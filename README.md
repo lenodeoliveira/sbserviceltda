@@ -1,4 +1,6 @@
-<img alt="Coverage Status" src="https://coveralls.io/repos/github/lenodeoliveira/sbserviceltda/badge.svg?branch=main&kill_cache=1)"/> [![CircleCI](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main.svg?style=svg)](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main) ![CircleCI](https://img.shields.io/circleci/build/github/lenodeoliveira/sbserviceltda/main)
+<img src="https://coveralls.io/repos/github/lenodeoliveira/sbserviceltda/badge.svg?branch=main&kill_cache=1" alt="Coverage Status" /> [![CircleCI](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main.svg?style=svg)](https://circleci.com/gh/lenodeoliveira/sbserviceltda/tree/main) ![CircleCI](https://img.shields.io/circleci/build/github/lenodeoliveira/sbserviceltda/main)
+
+
 
 # SB - Provision of Radiology Services LTDA 👨🏼‍⚕️ ⚡️
 
